@@ -2,8 +2,8 @@ import about from "../../assets/about.jpg";
 
 const About = () => {
   return (
-    <div className="  flex flex-col px-32 items-center justify-center font-sans md:h-screen">
-      <h1 className="mt-10 text-center font-secondry text-4xl md:text-7xl">
+    <div className="flex flex-col px-32 items-center justify-center font-sans md:h-screen">
+      <h1 className="mt-10 md:mt-20 text-center font-secondry text-4xl md:text-7xl">
         Our Story
       </h1>
       <div className="flex flex-col  justify-center items-center gap-32 h-full md:flex-row">

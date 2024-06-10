@@ -99,7 +99,7 @@ const Feedback = () => {
       <h1 className="mb-10 mt-10 md:mt-0 text-center font-secondry text-4xl md:text-7xl">
         What our Customers say
       </h1>
-      <div className="h-[30vh] flex justify-center items-center overflow-y-hidden gap-10 overflow-x-hidden mt-10 md:mt-0">
+      <div className="h-[30vh] flex justify-center items-center overflow-y-hidden gap-10 overflow-x-hidden mt-10 md:mt-20">
         <Marquee>
           {feedbacks.map((f) => (
             <div
