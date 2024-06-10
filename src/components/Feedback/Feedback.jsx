@@ -95,28 +95,33 @@ const Feedback = () => {
   ];
 
   return (
-    <div className="h-[30vh] flex justify-center items-center overflow-y-hidden gap-10 overflow-x-hidden mt-10 md:mt-0">
-      <Marquee>
-        {feedbacks.map((f) => (
-          <div
-            key={f.id}
-            className=" w-[90vw] h-[25vh] border border-gray-300 flex flex-col gap-3 justify-center items-center p-5 mx-10 md:w-[30vw]"
-          >
-            <img
-              src={f.img}
-              alt=""
-              className="w-8 h-8 rounded-full md:w-12 md:h-12 aspect-auto"
-            />
-            <h1 className="text-[4vw] font-sans md:text-[1vw]">{f.name}</h1>
-            <p className="text-[3vw] font-sans font-thin md:text-[1vw]">
-              {f.comment}
-            </p>
-            <h3 className="font-secondary flex text-[3vw] md:text-[1vw]">
-              {"⭐️".repeat(f.rating)}
-            </h3>
-          </div>
-        ))}
-      </Marquee>
+    <div>
+      <h1 className="mb-10 mt-10 md:mt-0 text-center font-secondry text-4xl md:text-7xl">
+        What our Customers say
+      </h1>
+      <div className="h-[30vh] flex justify-center items-center overflow-y-hidden gap-10 overflow-x-hidden mt-10 md:mt-0">
+        <Marquee>
+          {feedbacks.map((f) => (
+            <div
+              key={f.id}
+              className=" w-[90vw] h-[25vh] border border-gray-300 flex flex-col gap-3 justify-center items-center p-5 mx-10 md:w-[30vw]"
+            >
+              <img
+                src={f.img}
+                alt=""
+                className="w-8 h-8 rounded-full md:w-12 md:h-12 aspect-auto"
+              />
+              <h1 className="text-[4vw] font-sans md:text-[1vw]">{f.name}</h1>
+              <p className="text-[3vw] font-sans font-thin md:text-[1vw]">
+                {f.comment}
+              </p>
+              <h3 className="font-secondary flex text-[3vw] md:text-[1vw]">
+                {"⭐️".repeat(f.rating)}
+              </h3>
+            </div>
+          ))}
+        </Marquee>
+      </div>
     </div>
   );
 };

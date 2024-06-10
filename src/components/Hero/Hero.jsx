@@ -15,7 +15,7 @@ const Hero = () => {
               Awaits
             </h2>
             <button className="text-[3vw]  bg-black bg-opacity-0 border border-zinc-50 px-[4vw] py-[2vw] text-zinc-50 hover:bg-zinc-50 hover:text-black hover:transiton-all hover:duration-500 md:text-xl md:px-4 md:py-3">
-              Explore About ScubaUs
+              Make a Divepoinment 🏄🏻‍♂️
             </button>
           </div>
         </div>
