@@ -8,7 +8,7 @@ const About = () => {
       </h1>
       <div className="flex flex-col  justify-center items-center gap-32 h-full md:flex-row">
         <img src={about} alt="" className="w-[50%] hidden md:block" />
-        <div className="text-sm  text-justify font-extralight md:w-[50%] mt-10 md:mt-0 md:text-xl">
+        <div className=" w-screen px-20 text-sm text-justify font-extralight md:w-[50%] mt-10 md:mt-0 md:text-xl">
           <p>
             At ScubaUs, our passion for the underwater world 🌊 drives
             everything we do. Founded by a group of seasoned divers and ocean
