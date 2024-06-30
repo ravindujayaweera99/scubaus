@@ -104,7 +104,7 @@ const Feedback = () => {
           {feedbacks.map((f) => (
             <div
               key={f.id}
-              className=" w-[90vw] h-[25vh] border border-gray-300 flex flex-col gap-3 justify-center items-center p-5 mx-10 md:w-[30vw]"
+              className=" w-[90vw] h-[25vh] border border-gray-300 flex flex-col gap-3 justify-center items-center px-5 mx-10 md:w-[30vw]"
             >
               <img
                 src={f.img}
